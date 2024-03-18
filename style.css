@@ -1,1 +1,235 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
 
+header {
+    height: 700px;
+    background-image: url(images/Background\ image.jpg);
+    box-shadow: 70px 100px 160px black inset;
+    background-position: center center;
+    background-size: max(1300px, 110vw);
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+header .bg {
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    filter: opacity(0.6);
+    position: absolute;
+    top: 0px;
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    top: 27px;
+    z-index: 3;
+}
+
+.lang {
+    color: white;
+    background-color: black;
+    padding: 5px 27px;
+    border-radius: 4px;
+    border-color: white;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.signin {
+    border-color: black;
+    color: white;
+    background-color: red;
+    padding: 7px 13px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+nav {
+    height: 75px;
+    max-width: 76vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    z-index: 3;
+    display: flex;
+    gap: 15px;
+}
+
+@media only screen and (max-width:600px) {
+    .logo {
+        position: absolute;
+        top: 24px;
+        left: 26px;
+        width: 95px;
+    }
+
+    .button {
+        position: absolute;
+        top: 22px;
+        right: 20px;
+        display: flex;
+        gap: 6px;
+    }
+
+    .lang {
+        padding: 5px 5px;
+    }
+}
+
+.lines {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 91%;
+    font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    position: relative;
+}
+
+.firstline {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+
+.secondline {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin: 15px;
+    text-align: center;
+}
+
+.thirdline {
+    margin: 15px;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-align: center;
+
+}
+.email{
+    height: 60px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    gap: 8px;
+    position: relative;
+}
+.input{
+    border-radius: 5px;
+    color: white;
+    padding: 5px 160px 5px 20px;
+    font-size: 16px;
+    background-color: rgba(23,23,23,0.8);
+    border: 1px solid white;
+}
+.button1{
+    padding: 5px 24px;
+    font-size:25px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+.seperator{
+    height: 9px;
+    width: 100%;
+    background-color: rgb(41, 40, 40);
+}
+.bodya{
+    max-width: 78vw;
+    height: 80vh;
+    margin: auto;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+main{
+    background-color: black;
+}
+.line1{
+    font-size: 3rem;
+    font-weight: 900;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+
+}
+.line2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.tvimg{
+    height: 430px;
+    position: relative;
+    z-index: 5;
+}
+.video1{
+    position: absolute;
+    right: 11.7vw;
+}
+.bodya1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.bodyb{
+    max-width: 76vw;
+    height: 80vh;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.bodyb1{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.bodybimg{
+    height: 430px;
+}
+.bodyc{
+    height: 80vh;
+    background-color: black;
+    max-width: 76vw;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.tvimg2{
+    height: 430px;
+    position: relative;
+    z-index: 5;
+}
+.video2{
+    position: absolute;
+    right: 19vw;
+    top: 275vh;
+}
+.videoc1{
+    width: 350px;
+}
+
+.bodyd{
+    margin: auto;
+    height: 80vh;
+    max-width: 73vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
