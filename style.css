@@ -66,6 +66,12 @@ nav {
     gap: 15px;
 }
 
+@media only screen and (max-width:960px){
+    .bodybimg{
+        background-color: aqua;
+    }
+}
+
 @media only screen and (max-width:600px) {
     .logo {
         position: absolute;
@@ -83,8 +89,10 @@ nav {
     }
 
     .lang {
+        position: absolute;
         padding: 5px 5px;
     }
+    
 }
 
 .lines {
@@ -232,4 +240,77 @@ main{
     background-color: black;
     display: flex;
     align-items: center;
+}
+.table{
+    margin: auto;
+    height: 123vh;
+    width: auto;
+}
+.table1{
+    color: white;
+    font-size: 3rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 60px 0px 25px 0px;
+}
+.table3{
+    color: white;
+    font-size: 1.25rem;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 45px 0px 20px 0px;
+}
+.emailtable{
+    height: 60px;
+    display: flex;
+    align-content: center;
+    justify-content:center;
+    gap: 8px;
+    position: relative;
+}
+.inputtable{
+    border-radius: 5px;
+    color: white;
+    padding: 5px 160px 5px 20px;
+    font-size: 16px;
+    background-color: rgba(23,23,23,0.8);
+    border: 1px solid white;
+}
+.buttontable{
+    padding: 5px 24px;
+    font-size:25px;
+    font-weight: 600;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+}
+.faqbox:hover{
+    background-color: rgb(72, 70, 70);
+}
+.faqbox{
+    height: 12vh;
+    width: 76vw;
+    border: 1px solid black;
+    color: white;
+    background-color: #2d2d2d;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 10px auto;
+}
+.faqbox1{
+    margin: 0px 25px 0px 25px;
+}
+.svg{
+    margin: 0px 25px 0px 0px;
+}
+.faq{
+    margin: 0px 0px 0px -20px;
 }
